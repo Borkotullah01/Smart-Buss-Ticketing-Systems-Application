@@ -1,0 +1,48 @@
+/* ---------custom fonts */
+html {
+    scroll-behavior: smooth;
+}
+/* title-font */
+.font-raleway {
+    font-family: "Raleway", sans-serif;
+}
+/* normal-font */
+.font-inter {
+    font-family: "Inter", sans-serif;
+}
+
+#info-bg {
+    background: url('../images/info-devider.png') no-repeat;
+    background-color: #FFFFFF;
+    background-position: 88% 0;
+}
+
+hr {
+    border-style: dashed;
+}
+
+#sit-count button {
+    width: 110px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#select-ticket li {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width:576px) {
+    #sit-count button {
+        width: 50px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    #info-bg {
+        background: #FFFFFF;
+    }
+}
